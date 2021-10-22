@@ -1,21 +1,21 @@
 {
-  "name": "jsonplaceholderuz",
+  "name": "jspuz",
   "version": "1.0.0",
-  "description": "",
+  "description": "JSONPLACEHOLDER clone with Node & Express",
   "main": "app.js",
   "scripts": {
     "start": "node ./src/app.js",
-    "dev": "nodemon ./src/app.js && npx tailwindcss -o ./src/public/style.css"
+    "dev": "nodemon ./src/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.23.0",
+    "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "morgan": "^1.10.0"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.13"
